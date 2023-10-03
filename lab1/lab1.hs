@@ -1,4 +1,4 @@
--- Lab 1
+-- Lab 1: Introduction to Haskell
 -- By Luis Daniel Casais Mezquida
 
 
