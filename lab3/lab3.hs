@@ -52,17 +52,15 @@ takeN n (x:xs) = x : takeN (n-1) xs
 -- EXERCISE 6
 -- Create a function that given a lower case string returns a tuple with the (highest character, smallest character) considering the Spanish alphabet (both a and á, etc. must be considered, ñ appears in between n and o). Assume the string will contain at least one lower case letter and it will not contain anything that it is not a lower case letter.
 
-tildeToVowel :: String -> String
--- convert string of vowels with tildes to string of vowels without tildes
-tildeToVowel [c]  -- translation
-    | c == 'á' = ['a']
-    | c == 'é' = ['e']
-    | c == 'í' = ['i']
-    | c == 'ó' = ['o']
-    | c == 'ú' = ['u']
-    | otherwise = [c]
-tildeToVowel (c:cs) = c : tildeToVowel cs  -- check one by one
-
+tildeToVowel :: Char -> Char
+-- convert vowels with tildes to vowels without tildes
+tildeToVowel c  -- translation
+    | c == 'á' = 'a'
+    | c == 'é' = 'e'
+    | c == 'í' = 'i'
+    | c == 'ó' = 'o'
+    | c == 'ú' = 'u'
+    | otherwise = c
 
 max' :: Char -> Char -> Char
 -- max function taking into account ñ
@@ -92,7 +90,7 @@ minimum' (x:cs) = min' x (minimum' cs)
 
 
 maxMinLetter :: [Char] -> (Char, Char)
-maxMinLetter cs = (maximum' (tildeToVowel cs), minimum' (tildeToVowel cs))
+maxMinLetter cs = (maximum' (map tildeToVowel cs), minimum' (map tildeToVowel cs))
 
 
 
