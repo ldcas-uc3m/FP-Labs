@@ -1,4 +1,4 @@
--- Lab 4
+-- Lab 4: List comprehension and Type Classes
 -- By Luis Daniel Casais Mezquida
 
 
@@ -177,6 +177,7 @@ isPrevious date1 date2
           m2 = month date2
           d2 = day date2
           y2 = year date2
+
 
 
 main :: IO ()

@@ -6,20 +6,20 @@ Universidad Carlos III de Madrid
 
 
 ## List of labs
-1. [`lab1/`](lab1/): Introduction to Haskell
-2. [`lab2/`](lab2/): Guards and patterns
-3. [`lab3/`](lab3/): Lists
-4. [`lab4/`](lab4/): List comprehension and Type Classes
+- [`lab1.hs`](lab1.hs): Introduction to Haskell
+- [`lab2.hs`](lab2.hs): Guards and patterns
+- [`lab3.hs`](lab3.hs): Lists
+- [`lab4.hs`](lab4.hs): List comprehension and Type Classes
 
+Guided labs can be found in [`guided/`](guided/).
 
 ## Installation
 1. Install Glasgow Haskell Compiler (GHC)
-2. Install [GHCup](https://www.haskell.org/ghcup/)
+2. (Optional, but recommended) Install [GHCup](https://www.haskell.org/ghcup/)
 
 
 ## Execution
 ``` bash
-cd lab1/
 runhaskell lab1.hs
 ```
 
