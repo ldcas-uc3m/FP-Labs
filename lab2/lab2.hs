@@ -115,14 +115,21 @@ calculator num1 num2 operator
 main :: IO ()
 main = do
 
+    putStrLn "-- EXERCISE 1 --"
+    putStrLn ""
+
     putStrLn ("square 2: " ++ show (square 2))
 
+    putStrLn ""
+    putStrLn "-- EXERCISE 2 --"
     putStrLn ""
 
     putStrLn ("older \"Pepe\" 22 \"Luisa\" 18: " ++ older "Pepe" 22 "Luisa" 18)
     putStrLn ("older \"Pepe\" 12 \"Luisa\" 18: " ++ older "Pepe" 12 "Luisa" 18)
     putStrLn ("older \"Pepe\" 18 \"Luisa\" 18: " ++ older "Pepe" 18 "Luisa" 18)
 
+    putStrLn ""
+    putStrLn "-- EXERCISE 3 --"
     putStrLn ""
 
     putStrLn ("ticketPrice 3: " ++ show (ticketPrice 3))
@@ -138,6 +145,8 @@ main = do
     putStrLn ("ticketPrice' 29: " ++ show (ticketPrice' 29))
 
     putStrLn ""
+    putStrLn "-- EXERCISE 4 --"
+    putStrLn ""
 
     putStrLn ("quadrant 0 1: " ++ show (quadrant 0 1))
     putStrLn ("quadrant 1 0: " ++ show (quadrant 1 0))
@@ -147,6 +156,8 @@ main = do
     putStrLn ("quadrant (-1) 1: " ++ show (quadrant (-1) 1))
 
     putStrLn ""
+    putStrLn "-- EXERCISE 5 --"
+    putStrLn ""
 
     putStrLn ("leapYear 1901: " ++ show (leapYear 1901))
     putStrLn ("leapYear 2016: " ++ show (leapYear 2016))
@@ -154,6 +165,8 @@ main = do
     putStrLn ("leapYear 2401: " ++ show (leapYear 2401))
     putStrLn ("leapYear 2023: " ++ show (leapYear 2023))
 
+    putStrLn ""
+    putStrLn "-- EXERCISE 6 --"
     putStrLn ""
 
     putStrLn ("calculator 2 2 \"+\": " ++ show (calculator 2 2 "+"))

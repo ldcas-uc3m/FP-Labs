@@ -96,6 +96,10 @@ maxMinLetter cs = (maximum' (map tildeToVowel cs), minimum' (map tildeToVowel cs
 
 main :: IO ()
 main = do
+
+    putStrLn "-- EXERCISE 1 --"
+    putStrLn ""
+
     putStrLn ("rotate 1 [1..7]: " ++ show (rotate 1 [1..7]))
     putStrLn ("rotate 2 [1..7]: " ++ show (rotate 2 [1..7]))
     putStrLn ("rotate 3 [1..7]: " ++ show (rotate 3 [1..7]))
@@ -103,12 +107,16 @@ main = do
     putStrLn ("rotate 8 [1..7]: " ++ show (rotate 8 [1..7]))
 
     putStrLn ""
+    putStrLn "-- EXERCISE 2 --"
+    putStrLn ""
 
     putStrLn ("interval 0 1 [0..7]: " ++ show (interval 0 1 [0..7]))
     putStrLn ("interval 0 6 [0..7]: " ++ show (interval 0 6 [0..7]))
     putStrLn ("interval 2 5 [0..7]: " ++ show (interval 2 5 [0..7]))
     putStrLn ("interval 4 2 [0..7]: " ++ show (interval 4 2 [0..7]))
 
+    putStrLn ""
+    putStrLn "-- EXERCISE 3 --"
     putStrLn ""
 
     putStrLn("intersection [] [3,5]: " ++ show (intersection [] [3,5]))
@@ -121,12 +129,16 @@ main = do
     putStrLn("intersection [5,6] [0,4]: " ++ show (intersection [5,6] [0,4]))
 
     putStrLn ""
+    putStrLn "-- EXERCISE 4 --"
+    putStrLn ""
 
     putStrLn("addEven []: " ++ show (addEven []))
     putStrLn("addEven [1]: " ++ show (addEven [1]))
     putStrLn("addEven [1..4]: " ++ show (addEven [1..4]))
     putStrLn("addEven [1..7]: " ++ show (addEven [1..7]))
 
+    putStrLn ""
+    putStrLn "-- EXERCISE 5 --"
     putStrLn ""
 
     putStrLn("takeN 3 [1,2,3]: " ++ show (takeN 3 [1,2,3]))
@@ -136,6 +148,8 @@ main = do
     -- putStrLn("takeN 4 []: " ++ show (takeN 4 []))  -- no funciona el show porque patata
     putStrLn("takeN 22 (repeat \"h\"): " ++ show (takeN 22 (repeat "h")))
 
+    putStrLn ""
+    putStrLn "-- EXERCISE 6 --"
     putStrLn ""
 
     putStrLn("maxMinLetter \"hello\": " ++ show (maxMinLetter "hello"))

@@ -81,11 +81,39 @@ highestNumber a b
 
 main :: IO ()
 main = do
+    putStrLn "-- EXERCISE 1 --"
+    putStrLn ""
+
     putStrLn ("addCents 0 0 0 0 0 5: " ++ show (addCents 0 0 0 0 0 5))
+
+    putStrLn ""
+    putStrLn "-- EXERCISE 2 --"
+    putStrLn ""
+
     putStrLn ("maxOf3 3 4 4: " ++ show (maxOf3 3 4 4))
     putStrLn ("maxOf3' 3 4 4: " ++ show (maxOf3' 3 4 4))
+
+    putStrLn ""
+    putStrLn "-- EXERCISE 3 --"
+    putStrLn ""
+
     putStrLn ("middle 2 3 1: " ++ show (middle 2 3 1))
+
+    putStrLn ""
+    putStrLn "-- EXERCISE 4 --"
+    putStrLn ""
+
     putStrLn ("allEqual 0 0 0 0: " ++ show (allEqual 0 0 0 0))
+
+    putStrLn ""
+    putStrLn "-- EXERCISE 5 --"
+    putStrLn ""
+
     putStrLn ("allDifferent 0 1 3: " ++ show (allDifferent 0 1 3))
     putStrLn ("allDifferent' 3 0 1 0: " ++ show (allDifferent' 3 0 1 0))
+
+    putStrLn ""
+    putStrLn "-- EXERCISE 6 --"
+    putStrLn ""
+
     putStrLn ("highestNumber 2 1: " ++ show (highestNumber 2 1))

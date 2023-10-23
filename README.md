@@ -5,6 +5,12 @@ Bachelor's Degree in Computer Science and Engineering
 Universidad Carlos III de Madrid
 
 
+## List of labs
+1. [`lab1/`](lab1/): Introduction to Haskell
+2. [`lab2/`](lab2/): Guards and patterns
+3. [`lab3/`](lab3/): Lists
+4. [`lab4/`](lab4/): List comprehension and Type Classes
+
 
 ## Installation
 1. Install Glasgow Haskell Compiler (GHC)
@@ -12,7 +18,7 @@ Universidad Carlos III de Madrid
 
 
 ## Execution
-```bash
+``` bash
 cd lab1/
 runhaskell lab1.hs
 ```
