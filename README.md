@@ -10,7 +10,8 @@ Universidad Carlos III de Madrid
 - [`lab2.hs`](lab2.hs): Guards and patterns
 - [`lab3.hs`](lab3.hs): Lists
 - [`lab4.hs`](lab4.hs): List comprehension and Type Classes
-- [`lab5.hs`](lab5.hs): Types
+- [`lab5.hs`](lab5.hs): Data types
+- [`lab6.hs`](lab6.hs): Recursion and High Order Functions
 
 Guided labs can be found in [`guided/`](guided/).
 
