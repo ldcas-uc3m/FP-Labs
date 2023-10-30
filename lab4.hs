@@ -81,13 +81,13 @@ multiples3_5 n = sum [x | x <- [3..n], x `rem` 3 == 0 || x `rem` 5 == 0]
 type Date = (Int, Int, Int)
 
 day :: Date -> Int
-day (day, month, year) = day
+day (day, _, _) = day
 
 month :: Date -> Int
-month (day, month, year) = month
+month (_, month, _) = month
 
 year :: Date -> Int
-year (day, month, year) = year
+year (_, _, year) = year
 
 -- 2. A function to return if the year of a Date is a leap year
 isLeap :: Date -> Bool
