@@ -142,63 +142,63 @@ main = do
 
     putStrLn ""
 
-    putStrLn $ "maxi student: " ++ show (maxi student)
-    putStrLn $ "mini student: " ++ show (mini student)
-    putStrLn $ "mean student: " ++ show (mean student)
-    putStrLn $ "count student: " ++ show (count student)
+    putStrLn $ "maxi student = " ++ show (maxi student)
+    putStrLn $ "mini student = " ++ show (mini student)
+    putStrLn $ "mean student = " ++ show (mean student)
+    putStrLn $ "count student = " ++ show (count student)
 
     putStrLn ""
     putStrLn "-- EXERCISE 2 --"
     putStrLn ""
 
-    putStrLn $ "Date 31 1 2022 > Date 30 1 2022: " ++ show (Date 31 1 2022 > Date 30 1 2022)
-    putStrLn $ "Date 30 1 2022 > Date 30 1 2022: " ++ show (Date 30 1 2022 > Date 30 1 2022)
-    putStrLn $ "Date 31 1 2022 >= Date 30 1 2022: " ++ show (Date 31 1 2022 >= Date 30 1 2022)
-    putStrLn $ "Date 30 1 2022 <= Date 30 1 2022: " ++ show (Date 30 1 2022 <= Date 30 1 2022)
+    putStrLn $ "Date 31 1 2022 > Date 30 1 2022 = " ++ show (Date 31 1 2022 > Date 30 1 2022)
+    putStrLn $ "Date 30 1 2022 > Date 30 1 2022 = " ++ show (Date 30 1 2022 > Date 30 1 2022)
+    putStrLn $ "Date 31 1 2022 >= Date 30 1 2022 = " ++ show (Date 31 1 2022 >= Date 30 1 2022)
+    putStrLn $ "Date 30 1 2022 <= Date 30 1 2022 = " ++ show (Date 30 1 2022 <= Date 30 1 2022)
 
     putStrLn ""
     putStrLn "-- EXERCISE 3 --"
     putStrLn ""
 
-    putStrLn $ "succ (Date 31 12 2022): " ++ show (succ (Date 31 12 2022))
-    putStrLn $ "succ (Date 31 1 2022): " ++ show (succ (Date 31 1 2022))
-    putStrLn $ "pred (Date 31 12 2022): " ++ show (pred (Date 31 12 2022))
-    putStrLn $ "pred (Date 31 1 2022): " ++ show (pred (Date 31 1 2022))
-    putStrLn $ "pred (Date 1 1 2022): " ++ show (pred (Date 1 1 2022))
-    putStrLn $ "pred (Date 1 12 2022): " ++ show (pred (Date 1 12 2022))
-    putStrLn $ "pred (Date 1 3 2022): " ++ show (pred (Date 1 3 2022))
-    putStrLn $ "pred (Date 1 3 2022): " ++ show (pred (Date 1 3 2022))
-    putStrLn $ "pred (Date 1 3 2020): " ++ show (pred (Date 1 3 2020))
+    putStrLn $ "succ (Date 31 12 2022) = " ++ show (succ (Date 31 12 2022))
+    putStrLn $ "succ (Date 31 1 2022) = " ++ show (succ (Date 31 1 2022))
+    putStrLn $ "pred (Date 31 12 2022) = " ++ show (pred (Date 31 12 2022))
+    putStrLn $ "pred (Date 31 1 2022) = " ++ show (pred (Date 31 1 2022))
+    putStrLn $ "pred (Date 1 1 2022) = " ++ show (pred (Date 1 1 2022))
+    putStrLn $ "pred (Date 1 12 2022) = " ++ show (pred (Date 1 12 2022))
+    putStrLn $ "pred (Date 1 3 2022) = " ++ show (pred (Date 1 3 2022))
+    putStrLn $ "pred (Date 1 3 2022) = " ++ show (pred (Date 1 3 2022))
+    putStrLn $ "pred (Date 1 3 2020) = " ++ show (pred (Date 1 3 2020))
 
     putStrLn ""
     putStrLn "-- EXERCISE 4 --"
     putStrLn ""
 
-    putStrLn $ "Product \"shoes\" 12.99 45: " ++ show (Product "shoes" 12.99 45)
-    putStrLn $ "Product \"oranges\" 1.18 33 (Date 1 1 2023): " ++ show (FreshProduct "oranges" 1.18 33 (Date 1 1 2023))
+    putStrLn $ "Product \"shoes\" 12.99 45 = " ++ show (Product "shoes" 12.99 45)
+    putStrLn $ "Product \"oranges\" 1.18 33 (Date 1 1 2023) = " ++ show (FreshProduct "oranges" 1.18 33 (Date 1 1 2023))
 
 
     putStrLn ""
     putStrLn "-- EXERCISE 5 --"
     putStrLn ""
 
-    putStrLn $ "sell (Product \"shoes\" 12.99 45): " ++ show (sell (Product "shoes" 12.99 45))
-    putStrLn $ "sell (Product \"oranges\" 1.18 33 (Date 1 1 2023)): " ++ show (sell (FreshProduct "oranges" 1.18 33 (Date 1 1 2023)))
+    putStrLn $ "sell (Product \"shoes\" 12.99 45) = " ++ show (sell (Product "shoes" 12.99 45))
+    putStrLn $ "sell (Product \"oranges\" 1.18 33 (Date 1 1 2023)) = " ++ show (sell (FreshProduct "oranges" 1.18 33 (Date 1 1 2023)))
 
     putStrLn ""
     putStrLn "-- EXERCISE 6 --"
     putStrLn ""
 
-    putStrLn $ "expired (Date 31 1 2023) (Product \"shoes\" 12.99 45): " ++ show (expired (Date 31 1 2023) (Product "shoes" 12.99 45))
-    putStrLn $ "expired (Date 31 1 2023) (FreshProduct \"oranges\" 1.18 33 (Date 1 1 2023)): " ++ show (expired (Date 31 1 2023) (FreshProduct "oranges" 1.18 33 (Date 1 1 2023)))
+    putStrLn $ "expired (Date 31 1 2023) (Product \"shoes\" 12.99 45) = " ++ show (expired (Date 31 1 2023) (Product "shoes" 12.99 45))
+    putStrLn $ "expired (Date 31 1 2023) (FreshProduct \"oranges\" 1.18 33 (Date 1 1 2023)) = " ++ show (expired (Date 31 1 2023) (FreshProduct "oranges" 1.18 33 (Date 1 1 2023)))
 
 
     putStrLn ""
     putStrLn "-- EXERCISE 7 --"
     putStrLn ""
 
-    putStrLn $ "Product \"shoes\" 12.99 45 == Product \"shoes\" 12.99 55: " ++ show (Product "shoes" 12.99 45 == Product "shoes" 12.99 55)
-    putStrLn $ "Product \"shoes\" 12.99 45 == Product \"shoes\" 1.99 55: " ++ show (Product "shoes" 12.99 45 == Product "shoes" 1.99 55)
-    putStrLn $ "FreshProduct \"oranges\" 1.18 33 (Date 1 1 2023) == FreshProduct \"oranges\" 1.18 12 (Date 1 1 2023): " ++ show (FreshProduct "oranges" 1.18 33 (Date 1 1 2023) == FreshProduct "oranges" 1.18 12 (Date 1 1 2023))
-    putStrLn $ "FreshProduct \"oranges\" 1.18 33 (Date 1 1 2023) == FreshProduct \"oranges\" 1.18 12 (Date 12 1 2023): " ++ show (FreshProduct "oranges" 1.18 33 (Date 1 1 2023) == FreshProduct "oranges" 1.18 12 (Date 12 1 2023))
-    putStrLn $ "FreshProduct \"oranges\" 1.18 33 (Date 1 1 2023) /= FreshProduct \"oranges\" 1.18 12 (Date 12 1 2023): " ++ show (FreshProduct "oranges" 1.18 33 (Date 1 1 2023) /= FreshProduct "oranges" 1.18 12 (Date 12 1 2023))
+    putStrLn $ "Product \"shoes\" 12.99 45 == Product \"shoes\" 12.99 55 = " ++ show (Product "shoes" 12.99 45 == Product "shoes" 12.99 55)
+    putStrLn $ "Product \"shoes\" 12.99 45 == Product \"shoes\" 1.99 55 = " ++ show (Product "shoes" 12.99 45 == Product "shoes" 1.99 55)
+    putStrLn $ "FreshProduct \"oranges\" 1.18 33 (Date 1 1 2023) == FreshProduct \"oranges\" 1.18 12 (Date 1 1 2023) = " ++ show (FreshProduct "oranges" 1.18 33 (Date 1 1 2023) == FreshProduct "oranges" 1.18 12 (Date 1 1 2023))
+    putStrLn $ "FreshProduct \"oranges\" 1.18 33 (Date 1 1 2023) == FreshProduct \"oranges\" 1.18 12 (Date 12 1 2023) = " ++ show (FreshProduct "oranges" 1.18 33 (Date 1 1 2023) == FreshProduct "oranges" 1.18 12 (Date 12 1 2023))
+    putStrLn $ "FreshProduct \"oranges\" 1.18 33 (Date 1 1 2023) /= FreshProduct \"oranges\" 1.18 12 (Date 12 1 2023) = " ++ show (FreshProduct "oranges" 1.18 33 (Date 1 1 2023) /= FreshProduct "oranges" 1.18 12 (Date 12 1 2023))

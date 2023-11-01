@@ -186,81 +186,81 @@ main = do
     putStrLn "-- EXERCISE 1 --"
     putStrLn ""
 
-    putStrLn $ "evenPositions []: " ++ show (evenPositions [])
-    putStrLn $ "evenPositions [1, 1, 1, 1]: " ++ show (evenPositions [1, 1, 1, 1])
-    putStrLn $ "evenPositions [1, 1, 1, 2]: " ++ show (evenPositions [1, 1, 1, 2])
-    putStrLn $ "evenPositions [2, 2, 2, 2]: " ++ show (evenPositions [2, 2, 2, 2])
+    putStrLn $ "evenPositions [] = " ++ show (evenPositions [])
+    putStrLn $ "evenPositions [1, 1, 1, 1] = " ++ show (evenPositions [1, 1, 1, 1])
+    putStrLn $ "evenPositions [1, 1, 1, 2] = " ++ show (evenPositions [1, 1, 1, 2])
+    putStrLn $ "evenPositions [2, 2, 2, 2] = " ++ show (evenPositions [2, 2, 2, 2])
 
     putStrLn ""
     putStrLn "-- EXERCISE 2 --"
     putStrLn ""
 
-    putStrLn $ "posFirstEven []: " ++ show (posFirstEven [])
-    putStrLn $ "posFirstEven [1, 1, 1, 1]: " ++ show (posFirstEven [1, 1, 1, 1])
-    putStrLn $ "posFirstEven [1, 1, 1, 2]: " ++ show (posFirstEven [1, 1, 1, 2])
-    putStrLn $ "posFirstEven [2, 2, 2, 2]: " ++ show (posFirstEven [2, 2, 2, 2])
+    putStrLn $ "posFirstEven [] = " ++ show (posFirstEven [])
+    putStrLn $ "posFirstEven [1, 1, 1, 1] = " ++ show (posFirstEven [1, 1, 1, 1])
+    putStrLn $ "posFirstEven [1, 1, 1, 2] = " ++ show (posFirstEven [1, 1, 1, 2])
+    putStrLn $ "posFirstEven [2, 2, 2, 2] = " ++ show (posFirstEven [2, 2, 2, 2])
 
     putStrLn ""
     putStrLn "-- EXERCISE 3 --"
     putStrLn ""
 
-    putStrLn $ "splitEven []: " ++ show(splitEven [])
-    putStrLn $ "splitEven [1, 1, 1, 1]: " ++ show(splitEven [1, 1, 1, 1])
-    putStrLn $ "splitEven [1, 1, 1, 2]: " ++ show(splitEven [1, 1, 1, 2])
-    putStrLn $ "splitEven [2, 2, 2, 2]: " ++ show(splitEven [2, 2, 2, 2])
+    putStrLn $ "splitEven [] = " ++ show(splitEven [])
+    putStrLn $ "splitEven [1, 1, 1, 1] = " ++ show(splitEven [1, 1, 1, 1])
+    putStrLn $ "splitEven [1, 1, 1, 2] = " ++ show(splitEven [1, 1, 1, 2])
+    putStrLn $ "splitEven [2, 2, 2, 2] = " ++ show(splitEven [2, 2, 2, 2])
 
     putStrLn ""
     putStrLn "-- EXERCISE 4 --"
     putStrLn ""
 
-    putStrLn $ "perfectTo 10: " ++ show(perfectTo 10)
-    putStrLn $ "perfectTo 1000: " ++ show(perfectTo 1000)
-    putStrLn $ "perfectTo 10000: " ++ show(perfectTo 10000)
+    putStrLn $ "perfectTo 10 = " ++ show(perfectTo 10)
+    putStrLn $ "perfectTo 1000 = " ++ show(perfectTo 1000)
+    putStrLn $ "perfectTo 10000 = " ++ show(perfectTo 10000)
 
     putStrLn ""
     putStrLn "-- EXERCISE 5 --"
     putStrLn ""
 
-    putStrLn $ "multiples3_5 2: " ++ show(multiples3_5 2)
-    putStrLn $ "multiples3_5 3: " ++ show(multiples3_5 3)
-    putStrLn $ "multiples3_5 5: " ++ show(multiples3_5 5)
-    putStrLn $ "multiples3_5 15: " ++ show(multiples3_5 15)
+    putStrLn $ "multiples3_5 2 = " ++ show(multiples3_5 2)
+    putStrLn $ "multiples3_5 3 = " ++ show(multiples3_5 3)
+    putStrLn $ "multiples3_5 5 = " ++ show(multiples3_5 5)
+    putStrLn $ "multiples3_5 15 = " ++ show(multiples3_5 15)
 
     putStrLn ""
     putStrLn "-- EXERCISE 6 --"
     putStrLn ""
 
-    putStrLn $ "consecutive [0..5]: " ++ show (consecutive [0..5])
-    putStrLn $ "consecutive ['a'..'x']: " ++ show (consecutive ['a'..'x'])
-    putStrLn $ "consecutive ['a', 'd'..'x']: " ++ show (consecutive ['a', 'd'..'x'])
-    putStrLn $ "consecutive [2, 1, 0, -1]: " ++ show (consecutive [2, 1, 0, -1])
+    putStrLn $ "consecutive [0..5] = " ++ show (consecutive [0..5])
+    putStrLn $ "consecutive ['a'..'x'] = " ++ show (consecutive ['a'..'x'])
+    putStrLn $ "consecutive ['a', 'd'..'x'] = " ++ show (consecutive ['a', 'd'..'x'])
+    putStrLn $ "consecutive [2, 1, 0, -1] = " ++ show (consecutive [2, 1, 0, -1])
 
     putStrLn ""
 
-    putStrLn $ "consecutive' [0..5]: " ++ show (consecutive' [0..5])
-    putStrLn $ "consecutive' ['a'..'x']: " ++ show (consecutive' ['a'..'x'])
-    putStrLn $ "consecutive' ['a', 'd'..'x']: " ++ show (consecutive' ['a', 'd'..'x'])
-    putStrLn $ "consecutive' [2, 1, 0, -1]: " ++ show (consecutive' [2, 1, 0, -1])
+    putStrLn $ "consecutive' [0..5] = " ++ show (consecutive' [0..5])
+    putStrLn $ "consecutive' ['a'..'x'] = " ++ show (consecutive' ['a'..'x'])
+    putStrLn $ "consecutive' ['a', 'd'..'x'] = " ++ show (consecutive' ['a', 'd'..'x'])
+    putStrLn $ "consecutive' [2, 1, 0, -1] = " ++ show (consecutive' [2, 1, 0, -1])
 
     putStrLn ""
     putStrLn "-- EXERCISE 7 --"
     putStrLn ""
 
-    putStrLn $ "isLeap (6,9,2020): " ++ show (isLeap (6,9,2020))
-    putStrLn $ "isLeap (6,9,2021): " ++ show (isLeap (6,9,2021))
-    putStrLn $ "rightMonth (4,2,1970): " ++ show (rightMonth (4,2,1970))
-    putStrLn $ "rightMonth (4,20,1970): " ++ show (rightMonth (4,20,1970))
-    putStrLn $ "rightDay (29,2,2000): " ++ show (rightDay (29,2,2000))
-    putStrLn $ "rightDay (29,2,2001): " ++ show (rightDay (29,2,2001))
-    putStrLn $ "rightDay (31,3,2001): " ++ show (rightDay (31,3,2001))
-    putStrLn $ "fixDate (29,2,2001): " ++ show (fixDate (29,2,2001))
-    putStrLn $ "fixDate (29,2,2000): " ++ show (fixDate (29,2,2000))
-    putStrLn $ "showDate (29,2,2000): " ++ show (showDate (29,2,2000))
-    putStrLn $ "showDate (22,2,2001): " ++ show (showDate (22,2,2001))
-    putStrLn $ "nextDay (22,2,2001): " ++ show (nextDay (22,2,2001))
-    putStrLn $ "nextDay (31,12,2001): " ++ show (nextDay (31,12,2001))
-    putStrLn $ "nextDay (29,2,2000): " ++ show (nextDay (29,2,2000))
-    putStrLn $ "nextDay (4,20,1970): " ++ show (nextDay (4,20,1970))
-    putStrLn $ "isPrevious (29,2,2000) (1,3,2000): " ++ show (isPrevious (29,2,2000) (1,3,2000))
-    putStrLn $ "isPrevious (29,2,2000) (1,1,2000): " ++ show (isPrevious (29,2,2000) (1,1,2000))
-    putStrLn $ "isPrevious (29,2,2000) (1,1,2001): " ++ show (isPrevious (29,2,2000) (1,1,2001))
+    putStrLn $ "isLeap (6,9,2020) = " ++ show (isLeap (6,9,2020))
+    putStrLn $ "isLeap (6,9,2021) = " ++ show (isLeap (6,9,2021))
+    putStrLn $ "rightMonth (4,2,1970) = " ++ show (rightMonth (4,2,1970))
+    putStrLn $ "rightMonth (4,20,1970) = " ++ show (rightMonth (4,20,1970))
+    putStrLn $ "rightDay (29,2,2000) = " ++ show (rightDay (29,2,2000))
+    putStrLn $ "rightDay (29,2,2001) = " ++ show (rightDay (29,2,2001))
+    putStrLn $ "rightDay (31,3,2001) = " ++ show (rightDay (31,3,2001))
+    putStrLn $ "fixDate (29,2,2001) = " ++ show (fixDate (29,2,2001))
+    putStrLn $ "fixDate (29,2,2000) = " ++ show (fixDate (29,2,2000))
+    putStrLn $ "showDate (29,2,2000) = " ++ show (showDate (29,2,2000))
+    putStrLn $ "showDate (22,2,2001) = " ++ show (showDate (22,2,2001))
+    putStrLn $ "nextDay (22,2,2001) = " ++ show (nextDay (22,2,2001))
+    putStrLn $ "nextDay (31,12,2001) = " ++ show (nextDay (31,12,2001))
+    putStrLn $ "nextDay (29,2,2000) = " ++ show (nextDay (29,2,2000))
+    putStrLn $ "nextDay (4,20,1970) = " ++ show (nextDay (4,20,1970))
+    putStrLn $ "isPrevious (29,2,2000) (1,3,2000) = " ++ show (isPrevious (29,2,2000) (1,3,2000))
+    putStrLn $ "isPrevious (29,2,2000) (1,1,2000) = " ++ show (isPrevious (29,2,2000) (1,1,2000))
+    putStrLn $ "isPrevious (29,2,2000) (1,1,2001) = " ++ show (isPrevious (29,2,2000) (1,1,2001))

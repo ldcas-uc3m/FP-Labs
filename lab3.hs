@@ -100,58 +100,58 @@ main = do
     putStrLn "-- EXERCISE 1 --"
     putStrLn ""
 
-    putStrLn ("rotate 1 [1..7]: " ++ show (rotate 1 [1..7]))
-    putStrLn ("rotate 2 [1..7]: " ++ show (rotate 2 [1..7]))
-    putStrLn ("rotate 3 [1..7]: " ++ show (rotate 3 [1..7]))
-    putStrLn ("rotate 7 [1..7]: " ++ show (rotate 7 [1..7]))
-    putStrLn ("rotate 8 [1..7]: " ++ show (rotate 8 [1..7]))
+    putStrLn ("rotate 1 [1..7] = " ++ show (rotate 1 [1..7]))
+    putStrLn ("rotate 2 [1..7] = " ++ show (rotate 2 [1..7]))
+    putStrLn ("rotate 3 [1..7] = " ++ show (rotate 3 [1..7]))
+    putStrLn ("rotate 7 [1..7] = " ++ show (rotate 7 [1..7]))
+    putStrLn ("rotate 8 [1..7] = " ++ show (rotate 8 [1..7]))
 
     putStrLn ""
     putStrLn "-- EXERCISE 2 --"
     putStrLn ""
 
-    putStrLn ("interval 0 1 [0..7]: " ++ show (interval 0 1 [0..7]))
-    putStrLn ("interval 0 6 [0..7]: " ++ show (interval 0 6 [0..7]))
-    putStrLn ("interval 2 5 [0..7]: " ++ show (interval 2 5 [0..7]))
-    putStrLn ("interval 4 2 [0..7]: " ++ show (interval 4 2 [0..7]))
+    putStrLn ("interval 0 1 [0..7] = " ++ show (interval 0 1 [0..7]))
+    putStrLn ("interval 0 6 [0..7] = " ++ show (interval 0 6 [0..7]))
+    putStrLn ("interval 2 5 [0..7] = " ++ show (interval 2 5 [0..7]))
+    putStrLn ("interval 4 2 [0..7] = " ++ show (interval 4 2 [0..7]))
 
     putStrLn ""
     putStrLn "-- EXERCISE 3 --"
     putStrLn ""
 
-    putStrLn("intersection [] [3,5]: " ++ show (intersection [] [3,5]))
-    putStrLn("intersection [3,5] []: " ++ show (intersection [3,5] []))
-    putStrLn("intersection [2,4] [6,9]: " ++ show (intersection [2,4] [6,9]))
-    putStrLn("intersection [2,6] [6,9]: " ++ show (intersection [2,6] [6,9]))
-    putStrLn("intersection [2,6] [0,9]: " ++ show (intersection [2,6] [0,9]))
-    putStrLn("intersection [2,6] [0,4]: " ++ show (intersection [2,6] [0,4]))
-    putStrLn("intersection [4,6] [4,4]: " ++ show (intersection [4,6] [4,4]))
-    putStrLn("intersection [5,6] [0,4]: " ++ show (intersection [5,6] [0,4]))
+    putStrLn("intersection [] [3,5] = " ++ show (intersection [] [3,5]))
+    putStrLn("intersection [3,5] [] = " ++ show (intersection [3,5] []))
+    putStrLn("intersection [2,4] [6,9] = " ++ show (intersection [2,4] [6,9]))
+    putStrLn("intersection [2,6] [6,9] = " ++ show (intersection [2,6] [6,9]))
+    putStrLn("intersection [2,6] [0,9] = " ++ show (intersection [2,6] [0,9]))
+    putStrLn("intersection [2,6] [0,4] = " ++ show (intersection [2,6] [0,4]))
+    putStrLn("intersection [4,6] [4,4] = " ++ show (intersection [4,6] [4,4]))
+    putStrLn("intersection [5,6] [0,4] = " ++ show (intersection [5,6] [0,4]))
 
     putStrLn ""
     putStrLn "-- EXERCISE 4 --"
     putStrLn ""
 
-    putStrLn("addEven []: " ++ show (addEven []))
-    putStrLn("addEven [1]: " ++ show (addEven [1]))
-    putStrLn("addEven [1..4]: " ++ show (addEven [1..4]))
-    putStrLn("addEven [1..7]: " ++ show (addEven [1..7]))
+    putStrLn("addEven [] = " ++ show (addEven []))
+    putStrLn("addEven [1] = " ++ show (addEven [1]))
+    putStrLn("addEven [1..4] = " ++ show (addEven [1..4]))
+    putStrLn("addEven [1..7] = " ++ show (addEven [1..7]))
 
     putStrLn ""
     putStrLn "-- EXERCISE 5 --"
     putStrLn ""
 
-    putStrLn("takeN 3 [1,2,3]: " ++ show (takeN 3 [1,2,3]))
-    putStrLn("takeN 4 [1,2]: " ++ show (takeN 4 [1,2]))
-    putStrLn("takeN 5 [1]: " ++ show (takeN 5 [1]))
-    putStrLn("takeN 8 \"hello\": " ++ show (takeN 8 "hello"))
-    -- putStrLn("takeN 4 []: " ++ show (takeN 4 []))  -- no funciona el show porque patata
-    putStrLn("takeN 22 (repeat \"h\"): " ++ show (takeN 22 (repeat "h")))
+    putStrLn("takeN 3 [1,2,3] = " ++ show (takeN 3 [1,2,3]))
+    putStrLn("takeN 4 [1,2] = " ++ show (takeN 4 [1,2]))
+    putStrLn("takeN 5 [1] = " ++ show (takeN 5 [1]))
+    putStrLn("takeN 8 \"hello\" = " ++ show (takeN 8 "hello"))
+    -- putStrLn("takeN 4 [] = " ++ show (takeN 4 []))  -- no funciona el show porque patata
+    putStrLn("takeN 22 (repeat \"h\") = " ++ show (takeN 22 (repeat "h")))
 
     putStrLn ""
     putStrLn "-- EXERCISE 6 --"
     putStrLn ""
 
-    putStrLn("maxMinLetter \"hello\": " ++ show (maxMinLetter "hello"))
-    putStrLn("maxMinLetter \"ñandú\": " ++ show (maxMinLetter "ñandú"))
-    putStrLn("maxMinLetter \"niña\": " ++ show (maxMinLetter "niña"))
+    putStrLn("maxMinLetter \"hello\" = " ++ show (maxMinLetter "hello"))
+    putStrLn("maxMinLetter \"ñandú\" = " ++ show (maxMinLetter "ñandú"))
+    putStrLn("maxMinLetter \"niña\" = " ++ show (maxMinLetter "niña"))
